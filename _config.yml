@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Jesse Molina"
 title_separator          : "-"
 name                     : "Jesse Molina"
-description              : "Data Science Portfolio"
+description              : "I am an aspiring data scientist with a diverse background in IT."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,8 +106,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "images/portrait02.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Jesse Molina"
+  avatar           : "/images/portrait02.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
   location         : "Dallas/Fort Worth, TX"
   email            : "jesse@jessemolina.xyz"
