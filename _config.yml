@@ -112,7 +112,7 @@ author:
   location         : "Dallas/Fort Worth, TX"
   email            : "jesse@jessemolina.xyz"
   links:
-    - label: "jesse@jessemolina.xyz"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
        url: mailto:jesse@jessemolina.xyz
     - label: "Website"
