@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Jesse Molina"
 title_separator          : "-"
 name                     : "Jesse Molina"
-description              : "I am an aspiring data scientist with a diverse background in IT."
+description              : "Data Science Blog/Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,8 +107,8 @@ analytics:
 # Site Author
 author:
   name             : "Jesse Molina"
-  avatar           : "/images/portrait02.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "images/portrait02.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an aspiring data scientist. I believe in the power of data and hope to pass my knowledge on to others!"
   location         : "Dallas/Fort Worth, TX"
   email            : "jesse@jessemolina.xyz"
   links:
