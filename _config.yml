@@ -114,7 +114,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:jesse@jessemolina.xyz
+       url: mailto:jesse@jessemolina.xyz
     - label: "Website"
       icon: "fas fa-fw fa-link"
        url: "https://jessemolina.xyz"
