@@ -1,0 +1,10 @@
+version: '2'
+services: 
+  jessemolina:
+      image: jessemolina/jekyll
+      ports:
+          - "4000:4000"
+      volumes:
+          - .:/srv/jekyll
+      command: bundle exec jekyll serve --host 0.0.0.0
+
