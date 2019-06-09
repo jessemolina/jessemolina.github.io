@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Jesse Molina"
-  avatar           : "images/portrait02.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Welcome to my data science blog! I believe in the power of data and hope to share my passion and knowledge with others!"
   location         : "Dallas, TX"
   email            : "jesse@jessemolina.xyz"
