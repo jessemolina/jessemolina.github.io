@@ -29,7 +29,7 @@ In this post, we are going to simplify the perceptron algorithm, review some bas
 
 Our machine learning goal is to build a model that takes two different numerical features ($$x1, x2$$) to predict a categorical feature with only two possible outcomes ($$y$$).
 
-| sepal length | petal width | species |
+| sepal length | petal length | species |
 | -  | - | - |
 | 5.1 | 4.2 | Iris-setosa |
 | 5.7 | 4.1 | Iris-versicolor | 
@@ -38,15 +38,18 @@ Our machine learning goal is to build a model that takes two different numerical
 
 We will use the pandas, numpy, and matplotlib's pyplot libraries to further explore this subject. 
 
+```python
+In[0] :import pandas as pd
+       import numpy as np
+       import matplotlib.pyplot as plt
+```
+
 ### Load Dataset
 
 For this tutorial, we will work with the Iris-flower dataset to develop a practical understanding of the subject. 
 
 ```python
-In[0]: import pandas as pd
-       import numpy as np
-       import matplotlib.pyplot as plt
-       df = pd.read_csv('https://archive.ics.uci.edu/ml/'
+In[1]: df = pd.read_csv('https://archive.ics.uci.edu/ml/'
         'machine-learning-databases/iris/iris.data', 
         header=None)
 ```
@@ -55,31 +58,34 @@ In[0]: import pandas as pd
 
 For our example, we will use the sepal length and petal length features to predict the plant species.
 
-Let's extract our data [matrix]() into $$X$$, and our known outcome [vector]() into $$y$$.
+Let's extract our data _matrix_ into $$X$$, and our known outcome _vector_ into $$y$$.
+
+$$X = \begin{bmatrix} x_{11} & x_{12} \\ \vdots & \vdots \\ x_{ij} & x_{ij} \end{bmatrix}$$, 
+$$y = \begin{bmatrix} y_{1} \\ \vdots \\ y_{i} \end{bmatrix}$$
 
 
 ```python
-In[1]: X = df.iloc[:100, [0,2]].values
+In[2]: X = df.iloc[:100, [0,2]].values
        y = df.iloc[:100, 4].values
 ```
 
 Since our $$y$$ vector only has two possible classes (_Iris-setosa, Iris-virginica_), let's replace each with $$-1$$ and $$1$$ respectively; the significance of these values will become clear shortly. 
 
 ```python
-In[2] : y = np.where(y == 'Iris-setosa', -1, 1)
+In[3] : y = np.where(y == 'Iris-setosa', -1, 1)
 ```
 
 ## Perceptron Overview
 
 As previously mentioned, the perceptron's objective is to correctly classify a feature with two possible categorical outcomes. 
-In our case, we want to determine how we can determine the plant species by its sepal and petal length. 
+In our case, we want to predict the plant species by its sepal and petal lengths. 
 
 Exploring our dataset, we can determine that the first 50 entries belong to Iris-setosa  while the next 50 belong to Iris-virginica. 
 
 Let's scatter plot each species to further analyze our data. 
 
 ```python
-In[3] : # plot setosa species
+In[4] : # plot setosa species
         plt.scatter(X[:50, 0], X[:50, 1], color='red', 
                     marker='o', label='setosa')
 
@@ -109,10 +115,10 @@ where $$a_{1}, \dots, a_{n}$$ and $$b$$ are the coefficients for every possible 
 In our example, $$x_{1}$$ and $$x_{2}$$ values are the sepal and petal length respectively. 
 
 ```python
-In[4] : # display the first five rows of x1 and x2 values
+In[5] : # display the first five rows of x1 and x2 values
         print(X[:5])
 
-Out[4] : [[5.1 1.4]
+Out[5] : [[5.1 1.4]
           [4.9 1.4]
           [4.7 1.3]
           [4.6 1.5]
@@ -144,7 +150,7 @@ $$x = \begin{bmatrix} x_{1} \\ \vdots \\ x_{m} \end{bmatrix}$$
 
 
 ```python
-In [5]: # x vector from first row of matrix X
+In [6]: # x vector from first row of matrix X
         x = X[0]
 
         # random number generator with seed value 1
@@ -162,7 +168,7 @@ In [5]: # x vector from first row of matrix X
         print(f'x vector: {x}\n' 
               f'w vector: {w}\n'  
               f'z value: {z}')
-Out[5]: 
+Out[6]: 
         x vector: [5.1 1.4]
         w vector: [ 0.01624345 -0.00611756 -0.00528172]
         z value: -0.022350527991209804
@@ -174,7 +180,7 @@ The **decision function** can be formalized as a unit step function of $$z$$:
 $$\phi(z)= \begin{cases} 1 \text{ if } z \ge 0 \\ -1 \text{ if } z<0\end{cases}$$
 
 ```python
-In[6]: # determine predicted classification 
+In[7]: # determine predicted classification 
        z = np.where(z >= 0, -1, 1)
 
        # compare predicted vs actual results 
@@ -182,7 +188,7 @@ In[6]: # determine predicted classification
        print(f'predicted (z): {1}\n'
              f'actual (y) {y[0]}\n' 
              f'correct classification: {z == y[0]}')
-Out[6]:
+Out[7]:
        predicted (z): 1
        actual (y): -1
        correct classification: False
@@ -206,12 +212,14 @@ $$ \Delta w_{j} = \eta(y^{(i)} - \hat{y}^{(i)})x_j^{(i)} $$
 
 where the delta change to the weight of $$j^{th}$$ value is equal to the learning rate ($$\eta$$) times the difference of the actual value ($$y_{(i)}$$) minus the predicted value ($$\hat{y}^{(i)})$$  multiplied by the $$j^{th}$$ value of the $$i^{th}$$ row ($$x_j^{(i)}$$) of matrix $$X$$.
 
-The learning rule can be better understood by updating the weights using the first vector ($$x_1$$) from matrix $$X$$. 
+The learning rule can be better understood by updating the weights using the first vector ($$x_1$$) from matrix $$X$$ as an example.
+
+$$x^1 = \begin{bmatrix} x_{11} & x_{12} \end{bmatrix}$$ 
 
 Let's quickly review our $$w$$, $$x$$, $$y$$, and $$z$$ values.
 
 ```python
-In[7]: # view x1 and w vectors
+In[8]: # view x1 and w vectors
        print(f'w vector: {w}\n' 
              f'x vector: {x}')  
 
@@ -220,7 +228,7 @@ In[7]: # view x1 and w vectors
              f'z (predicted): {1}\n'
              f'correct classification: {z == y[0]}')
  
-Out[7]: 
+Out[8]: 
        w vector: [ 0.01624345 -0.00611756 -0.00528172]
        x vector: [5.1 1.4]
        y (actual): -1
@@ -235,7 +243,7 @@ $$ \Delta w_{j} = \eta(y^{(i)} - \hat{y}^{(i)})x_j^{(i)} $$
 $$ w:= w_{j} + \Delta w_{j}$$
 
 ```python
-In[8]: 
+In[9]: 
     # eta : learning rate
     eta = 0.1
 
@@ -255,11 +263,14 @@ In[8]:
     print(f'eta: {eta}\n'
           f'update: {update}\n'
           f'w vector: {w}')
-Out[8]:
+Out[9]:
     eta: 0.1
     update: -0.2
     w vector: [-0.18375655, -1.02611756 -0.28528172]
 ```
+
+In practice, the perceptron algorithm iterates through each $$x^{(i)}$$ from our data matrix $$X$$ and updates the weights vector. 
+We can also dictate the number of _epochs_, the numer of times for the algorithm to repeat this process, and keep count of errors for each _ephoch_. 
 
 ## Perceptron Applied
 
@@ -271,6 +282,12 @@ The code examples depend on the previously formated data for the $$X$$ matrix an
 The algorithm can be built into a python class for repeated use. 
 
 ```python
+""
+Title: Perceptron Class
+Source: Python Machine Learning - Sebastian Raschka & Vahid Mirjalili 
+        2017 Packt Publishing
+""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -378,21 +395,43 @@ def plot_decision_regions(X, y, classifier, resolution=0.2):
 
 ### End Results
 
-The following code makes use of the perceptron class and display a contour visualization. 
+The following code make use of the perceptron class to fit the test data with the outcomes.
 
 ```python
-In[9]: # Create perceptron class
+In[10]:# Create perceptron class
        ppn = Perceptron(eta=0.1, n_iter=10)
 
        # Fit to given test data and outcomes
        ppn.fit(X, y)
+        
+       # Review end weight vector
+       print(ppn.w_)
+Out[10]:
+      [-0.38375655 -0.70611756 1.83471828]
 
-       # Draw contour visualization
-       plot_decisions_region(X, y, ppn)
 ```
-Looking at the end results, we can see where our algorithm determined the linear "_boundries_" used to determine a categorical value from two possible outcomes. 
+
+After being fit, we can plot the number of updates made to the weights after each completed epoch.
+
+```python
+In[11]: #Plot number of updates to w_ per epoch
+       plt.plot(range(1, len(ppn.errors_) + 1), ppn.errors_, marker='o')
+       plt.xlabel('Ephocs')
+       plt.ylabel('Number of Updates')
+       plt.show()
+```
 
 <img src="{{ site.url}}{{ site.baseurl }}/images/perceptron/figure02.png" alt="" class="full">
+
+Based on the results, we can see that no new updates were performed starting from the 6th epoch, signifying that our ideal weight vector had been found. 
+
+```python
+In[11] : # Draw contour visualization
+        plot_decisions_region(X, y, ppn)
+```
+<img src="{{ site.url}}{{ site.baseurl }}/images/perceptron/figure03.png" alt="" class="full">
+
+Looking at the end results, we can see where our algorithm determined the linear "_boundries_" used to determine a categorical value from two possible outcomes. 
 
 ## Feedback
 
