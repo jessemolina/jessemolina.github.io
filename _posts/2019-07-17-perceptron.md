@@ -408,7 +408,6 @@ In[10]:# Create perceptron class
        print(ppn.w_)
 Out[10]:
       [-0.38375655 -0.70611756 1.83471828]
-
 ```
 
 After being fit, we can plot the number of updates made to the weights after each completed epoch.
