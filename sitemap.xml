@@ -4,6 +4,60 @@
   
     
       <url>
+            <loc>https://jessemolina.xyz/tags/azure/</loc>
+            <lastmod>2022-03-17T12:08:15-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jessemolina.xyz/</loc>
+            <lastmod>2022-03-17T12:08:15-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jessemolina.xyz/posts/</loc>
+            <lastmod>2022-03-17T12:08:15-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jessemolina.xyz/tags/</loc>
+            <lastmod>2022-03-17T12:08:15-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jessemolina.xyz/tags/terraform/</loc>
+            <lastmod>2022-03-17T12:08:15-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jessemolina.xyz/posts/terraform-quickstart/terraform-quickstart/</loc>
+            <lastmod>2022-03-17T12:08:15-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://jessemolina.xyz/tags/github/</loc>
             <lastmod>2022-03-03T08:35:36-06:00</lastmod>
             <changefreq>always</changefreq>
@@ -23,33 +77,6 @@
     
       <url>
             <loc>https://jessemolina.xyz/posts/hugo-on-github/</loc>
-            <lastmod>2022-03-03T08:35:36-06:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://jessemolina.xyz/</loc>
-            <lastmod>2022-03-03T08:35:36-06:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://jessemolina.xyz/posts/</loc>
-            <lastmod>2022-03-03T08:35:36-06:00</lastmod>
-            <changefreq>always</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://jessemolina.xyz/tags/</loc>
             <lastmod>2022-03-03T08:35:36-06:00</lastmod>
             <changefreq>always</changefreq>
             <priority>0.5</priority>

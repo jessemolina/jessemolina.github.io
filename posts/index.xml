@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Jesse Molina</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Mar 2022 08:35:36 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Mar 2022 12:08:15 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform Quickstart</title>
+      <link>https://jessemolina.xyz/posts/terraform-quickstart/terraform-quickstart/</link>
+      <pubDate>Thu, 17 Mar 2022 12:08:15 -0600</pubDate>
+      
+      <guid>https://jessemolina.xyz/posts/terraform-quickstart/terraform-quickstart/</guid>
+      <description>Terraform is an open-source tool that allows cloud provider APIs to be expressed as declarative configuration files, enabling Infrastructure-as-Code.
+In layman&amp;#39;s terms, rather than manually creating resources on Azure, AWS, GCP, etc.</description>
+    </item>
+    
     <item>
       <title>Hugo Static Website on GitHub Pages</title>
       <link>https://jessemolina.xyz/posts/hugo-on-github/</link>
