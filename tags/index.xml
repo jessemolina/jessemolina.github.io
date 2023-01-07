@@ -5,25 +5,6 @@
     <link>https://jessemolina.xyz/tags/</link>
     <description>Recent content in Tags on Jesse Molina</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 21 Dec 2022 15:06:58 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>announcement</title>
-      <link>https://jessemolina.xyz/tags/announcement/</link>
-      <pubDate>Wed, 21 Dec 2022 15:06:58 -0600</pubDate>
-      
-      <guid>https://jessemolina.xyz/tags/announcement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>example</title>
-      <link>https://jessemolina.xyz/tags/example/</link>
-      <pubDate>Wed, 21 Dec 2022 15:06:58 -0600</pubDate>
-      
-      <guid>https://jessemolina.xyz/tags/example/</guid>
-      <description></description>
-    </item>
-    
+    <language>en</language><atom:link href="https://jessemolina.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

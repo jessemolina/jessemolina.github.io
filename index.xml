@@ -5,21 +5,6 @@
     <link>https://jessemolina.xyz/</link>
     <description>Recent content on Jesse Molina</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 21 Dec 2022 15:06:58 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Example</title>
-      <link>https://jessemolina.xyz/posts/example/</link>
-      <pubDate>Wed, 21 Dec 2022 15:06:58 -0600</pubDate>
-      
-      <guid>https://jessemolina.xyz/posts/example/</guid>
-      <description> This is my post! I talk about this.
-Then I talk about that.
-A Subject This is A!
-B Subject This is B!
-func abc(a, b, c) { return nil } </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://jessemolina.xyz/posts/example/featured.jpeg" />
-    </item>
-    
+    <language>en</language><atom:link href="https://jessemolina.xyz/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
