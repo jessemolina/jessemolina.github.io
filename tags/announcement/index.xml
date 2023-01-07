@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>announcement on Jesse Molina</title>
+    <link>https://lambdax.io/tags/announcement/</link>
+    <description>Recent content in announcement on Jesse Molina</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Dec 2022 15:06:58 -0600</lastBuildDate><atom:link href="https://lambdax.io/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example</title>
+      <link>https://lambdax.io/posts/example/</link>
+      <pubDate>Wed, 21 Dec 2022 15:06:58 -0600</pubDate>
+      
+      <guid>https://lambdax.io/posts/example/</guid>
+      <description> This is my post! I talk about this.
+Then I talk about that.
+A Subject This is A!
+B Subject This is B!
+func abc(a, b, c) { return nil } </description>
+    </item>
+    
+  </channel>
+</rss>
