@@ -4,7 +4,26 @@
   
     
       <url>
-            <loc>https://jessemolina.xyz/categories/</loc>
+            <loc>https://jessemolina.xyz/tags/github/</loc>
+            <lastmod>2022-03-03T08:35:36-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jessemolina.xyz/tags/hugo/</loc>
+            <lastmod>2022-03-03T08:35:36-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jessemolina.xyz/posts/hugo-on-github/</loc>
+            <lastmod>2022-03-03T08:35:36-06:00</lastmod>
             <changefreq>always</changefreq>
             <priority>0.5</priority>
           </url>
@@ -13,6 +32,16 @@
     
       <url>
             <loc>https://jessemolina.xyz/</loc>
+            <lastmod>2022-03-03T08:35:36-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jessemolina.xyz/posts/</loc>
+            <lastmod>2022-03-03T08:35:36-06:00</lastmod>
             <changefreq>always</changefreq>
             <priority>0.5</priority>
           </url>
@@ -21,6 +50,15 @@
     
       <url>
             <loc>https://jessemolina.xyz/tags/</loc>
+            <lastmod>2022-03-03T08:35:36-06:00</lastmod>
+            <changefreq>always</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jessemolina.xyz/categories/</loc>
             <changefreq>always</changefreq>
             <priority>0.5</priority>
           </url>
