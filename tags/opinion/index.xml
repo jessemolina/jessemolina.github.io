@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opinion on Jesse Molina</title>
+    <link>https://jessemolina.xyz/tags/opinion/</link>
+    <description>Recent content in opinion on Jesse Molina</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go vs Rust: Why I chose Go... for now</title>
+      <link>https://jessemolina.xyz/posts/go-vs-rust/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 -0600</pubDate>
+      
+      <guid>https://jessemolina.xyz/posts/go-vs-rust/</guid>
+      <description>Introduction In late 2022, I put together my roadmap for projects to tackle in 2023, many of which revolved around Go and high performance development. I had spent a good part of the year in tutorial hell, teaching myself how to build distributed systems in Go.</description>
+    </item>
+    
+  </channel>
+</rss>

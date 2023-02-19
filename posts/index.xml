@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Jesse Molina</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Mar 2022 12:08:15 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go vs Rust: Why I chose Go... for now</title>
+      <link>https://jessemolina.xyz/posts/go-vs-rust/</link>
+      <pubDate>Sun, 19 Feb 2023 00:00:00 -0600</pubDate>
+      
+      <guid>https://jessemolina.xyz/posts/go-vs-rust/</guid>
+      <description>Introduction In late 2022, I put together my roadmap for projects to tackle in 2023, many of which revolved around Go and high performance development. I had spent a good part of the year in tutorial hell, teaching myself how to build distributed systems in Go.</description>
+    </item>
+    
     <item>
       <title>Terraform Quickstart</title>
       <link>https://jessemolina.xyz/posts/terraform-quickstart/</link>
