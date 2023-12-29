@@ -2,78 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jesse Molina</title>
-    <link>https://example.org/tags/</link>
+    <link>https://jessemolina.xyz/tags/</link>
     <description>Recent content in Tags on Jesse Molina</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Jesse Molina</copyright>
-    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 -0600</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Dec 2023 15:25:57 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>go</title>
-      <link>https://example.org/tags/go/</link>
-      <pubDate>Sun, 19 Feb 2023 00:00:00 -0600</pubDate>
+      <link>https://jessemolina.xyz/tags/go/</link>
+      <pubDate>Thu, 28 Dec 2023 15:25:57 -0600</pubDate>
       
-      <guid>https://example.org/tags/go/</guid>
+      <guid>https://jessemolina.xyz/tags/go/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>opinion</title>
-      <link>https://example.org/tags/opinion/</link>
-      <pubDate>Sun, 19 Feb 2023 00:00:00 -0600</pubDate>
+      <link>https://jessemolina.xyz/tags/opinion/</link>
+      <pubDate>Thu, 28 Dec 2023 15:25:57 -0600</pubDate>
       
-      <guid>https://example.org/tags/opinion/</guid>
+      <guid>https://jessemolina.xyz/tags/opinion/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>rust</title>
-      <link>https://example.org/tags/rust/</link>
-      <pubDate>Sun, 19 Feb 2023 00:00:00 -0600</pubDate>
+      <link>https://jessemolina.xyz/tags/rust/</link>
+      <pubDate>Thu, 28 Dec 2023 15:25:57 -0600</pubDate>
       
-      <guid>https://example.org/tags/rust/</guid>
+      <guid>https://jessemolina.xyz/tags/rust/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>azure</title>
-      <link>https://example.org/tags/azure/</link>
+      <link>https://jessemolina.xyz/tags/azure/</link>
       <pubDate>Thu, 17 Mar 2022 12:08:15 -0600</pubDate>
       
-      <guid>https://example.org/tags/azure/</guid>
+      <guid>https://jessemolina.xyz/tags/azure/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>terraform</title>
-      <link>https://example.org/tags/terraform/</link>
+      <link>https://jessemolina.xyz/tags/terraform/</link>
       <pubDate>Thu, 17 Mar 2022 12:08:15 -0600</pubDate>
       
-      <guid>https://example.org/tags/terraform/</guid>
+      <guid>https://jessemolina.xyz/tags/terraform/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>github</title>
-      <link>https://example.org/tags/github/</link>
+      <link>https://jessemolina.xyz/tags/github/</link>
       <pubDate>Thu, 03 Mar 2022 08:35:36 -0600</pubDate>
       
-      <guid>https://example.org/tags/github/</guid>
+      <guid>https://jessemolina.xyz/tags/github/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://example.org/tags/hugo/</link>
+      <link>https://jessemolina.xyz/tags/hugo/</link>
       <pubDate>Thu, 03 Mar 2022 08:35:36 -0600</pubDate>
       
-      <guid>https://example.org/tags/hugo/</guid>
+      <guid>https://jessemolina.xyz/tags/hugo/</guid>
       <description></description>
       
     </item>
