@@ -2,19 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on Jesse Molina</title>
-    <link>https://jessemolina.xyz/tags/github/</link>
+    <link>https://example.org/tags/github/</link>
     <description>Recent content in github on Jesse Molina</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Mar 2022 08:35:36 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2023 Jesse Molina</copyright>
+    <lastBuildDate>Thu, 03 Mar 2022 08:35:36 -0600</lastBuildDate><atom:link href="https://example.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Static Website on GitHub Pages</title>
-      <link>https://jessemolina.xyz/posts/hugo-on-github/</link>
+      <link>https://example.org/posts/hugo-on-github/</link>
       <pubDate>Thu, 03 Mar 2022 08:35:36 -0600</pubDate>
       
-      <guid>https://jessemolina.xyz/posts/hugo-on-github/</guid>
+      <guid>https://example.org/posts/hugo-on-github/</guid>
       <description>If you have a need to build and host a static website, consider using GitHub Pages to host and Hugo to generate the site.
 GitHub pages is a static site hosting service made available for free by GitHub.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://example.org/posts/hugo-on-github/featured.png" />
     </item>
     
   </channel>

@@ -2,18 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rust on Jesse Molina</title>
-    <link>https://jessemolina.xyz/tags/rust/</link>
+    <link>https://example.org/tags/rust/</link>
     <description>Recent content in rust on Jesse Molina</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 -0600</lastBuildDate><atom:link href="https://jessemolina.xyz/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2023 Jesse Molina</copyright>
+    <lastBuildDate>Sun, 19 Feb 2023 00:00:00 -0600</lastBuildDate><atom:link href="https://example.org/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go vs Rust: Why I chose Go... for now</title>
-      <link>https://jessemolina.xyz/posts/go-vs-rust/</link>
+      <link>https://example.org/posts/go-vs-rust/</link>
       <pubDate>Sun, 19 Feb 2023 00:00:00 -0600</pubDate>
       
-      <guid>https://jessemolina.xyz/posts/go-vs-rust/</guid>
+      <guid>https://example.org/posts/go-vs-rust/</guid>
       <description>Introduction In late 2022, I put together my roadmap for projects to tackle in 2023, many of which revolved around Go and high performance development. I had spent a good part of the year in tutorial hell, teaching myself how to build distributed systems in Go.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://example.org/posts/go-vs-rust/featured.jpg" />
     </item>
     
   </channel>
